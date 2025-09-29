@@ -1,0 +1,47 @@
+# ==========================================================
+#  WA-GATEWAY  |  .gitignore  (root level)
+# ==========================================================
+
+# 1. Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# 2. Environment & secret
+.env
+.env.local
+.env.*.local
+
+# 3. WhatsApp Web.js session
+wwebjs_auth/
+wwebjs_cache/
+.nopm
+session/
+
+# 4. Log & debug
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 5. OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 6. IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 7. Build / dist (kalau ada bundler nanti)
+dist/
+build/

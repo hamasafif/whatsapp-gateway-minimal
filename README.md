@@ -37,16 +37,18 @@ Copy code
    cd whatsapp-gateway-minimal
 Install dependencies
 
-bash
+```bash
 Copy code
 npm install
+```
 # atau
+```bash
 yarn install
+```
 Setup environment
 Salin file .env.example menjadi .env, lalu sesuaikan konfigurasi:
 
-ini
-Copy code
+```bash
 HOST=http://localhost:3000
 SESSION_NAME=session_1
 AUTO_START=n
@@ -59,6 +61,8 @@ DB_PASSWORD=
 DB_HOST=localhost
 DB_PORT=3306
 DB_DIALECT=mysql
+```
+
 Setup database
 Buat database baru dan jalankan skrip database.sql untuk membuat tabel.
 
